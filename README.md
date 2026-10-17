@@ -1,11 +1,14 @@
-# Bhanu Teja Portfolio — Streamlit
+# Bhanu Teja Chintalakunta — Portfolio
 
-## Deploy to Streamlit Community Cloud
+**Live website:** [bhanu-teja-portfolio-dpgcbvuq6verhwpf6vgxku.streamlit.app](https://bhanu-teja-portfolio-dpgcbvuq6verhwpf6vgxku.streamlit.app/)
 
-1. Create a GitHub repository (for example, `bhanu-portfolio`).
-2. Upload `app.py`, `index.html`, and `requirements.txt` to the repository root.
-3. Open https://share.streamlit.io/ and sign in with GitHub.
-4. Select **Create app**, choose your repository and branch, and set the main file path to `app.py`.
-5. Click **Deploy**. Streamlit will build the app and provide a public `*.streamlit.app` URL.
+**Program:** iLEAD 2027
 
-The portfolio's HTML, CSS and JavaScript are preserved and displayed inside a Streamlit component.
+This repository contains Bhanu Teja Chintalakunta's portfolio website. It is built with HTML, CSS, and JavaScript and served through Streamlit Community Cloud.
+
+## Run locally
+
+1. Install the packages listed in `requirements.txt`.
+2. Run `streamlit run app.py`.
+
+The app displays `index.html` inside a content-sized frame.
